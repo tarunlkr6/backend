@@ -2,9 +2,10 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "backend project - youtube",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server.js"
   },
   "keywords": [
     "javascript",
@@ -15,5 +16,9 @@
     "backend"
   ],
   "author": "tarunlkr6",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
